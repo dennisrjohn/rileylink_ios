@@ -42,11 +42,20 @@ let package = Package(
             name: "MinimedKitPlugin",
             targets: ["Shared"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(
+                    url: "https://github.com/dennisrjohn/LoopKit",
+                    .branch("nudge")
+                )
+        .package(
+                    url: "https://github.com/maxkonovalov/MKRingProgressView",
+                    from: "2.2.3"
+                )
+    ],
     targets: [
         .target(
             name: "Shared",
-            dependencies: ["https://github.com/dennisrjohn/LoopKit","https://github.com/maxkonovalov/MKRingProgressView"],
+            dependencies: ["LoopKit", "MKRingProgressView"],
             path: "RileyLink")
     ]
 )
