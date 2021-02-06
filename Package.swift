@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Shared",
+    name: "RileyLink",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v10),
@@ -43,19 +43,11 @@ let package = Package(
             targets: ["Shared"]),
     ],
     dependencies: [
-        .package(
-                    url: "https://github.com/dennisrjohn/LoopKit.git",
-                    .branch("nudge")
-                ),
-        .package(
-                    url: "https://github.com/maxkonovalov/MKRingProgressView.git",
-                    from: "2.2.3"
-                )
     ],
     targets: [
         .target(
             name: "Shared",
-            dependencies: ["LoopKit", "MKRingProgressView"],
+            dependencies: [],
             path: "RileyLink")
     ]
 )
