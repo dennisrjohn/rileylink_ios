@@ -44,11 +44,11 @@ let package = Package(
     ],
     dependencies: [
         .package(
-                    url: "https://github.com/dennisrjohn/LoopKit",
+                    url: "https://github.com/dennisrjohn/LoopKit.git",
                     .branch("nudge")
                 ),
         .package(
-                    url: "https://github.com/maxkonovalov/MKRingProgressView",
+                    url: "https://github.com/maxkonovalov/MKRingProgressView.git",
                     from: "2.2.3"
                 )
     ],
