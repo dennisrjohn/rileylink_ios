@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B6B18E25CE1A92000BF85E /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B6B18D25CE1A92000BF85E /* Package.swift */; };
 		2B19B9881DF3EF68006AB65F /* NewTimePumpEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B9871DF3EF68006AB65F /* NewTimePumpEvent.swift */; };
 		2F962EC11E6872170070EFBD /* TimestampedHistoryEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F962EC01E6872170070EFBD /* TimestampedHistoryEventTests.swift */; };
 		2F962EC81E7074E60070EFBD /* BolusNormalPumpEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F962EC71E7074E60070EFBD /* BolusNormalPumpEventTests.swift */; };
@@ -880,6 +881,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01B6B18D25CE1A92000BF85E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		2B19B9871DF3EF68006AB65F /* NewTimePumpEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTimePumpEvent.swift; sourceTree = "<group>"; };
 		2F962EBE1E678BAA0070EFBD /* PumpOpsSynchronousTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PumpOpsSynchronousTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2F962EC01E6872170070EFBD /* TimestampedHistoryEventTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimestampedHistoryEventTests.swift; sourceTree = "<group>"; };
@@ -2086,6 +2088,7 @@
 		C12EA22E198B436800309FA4 = {
 			isa = PBXGroup;
 			children = (
+				01B6B18D25CE1A92000BF85E /* Package.swift */,
 				8021F3B12433D849007C5A6D /* Localizable.strings */,
 				C12EA240198B436800309FA4 /* RileyLink */,
 				C12EA259198B436900309FA4 /* RileyLinkTests */,
@@ -3886,6 +3889,7 @@
 				C1EF58881B3F93FE001C8C80 /* Config.m in Sources */,
 				C125728F2121DB7C0061BA2F /* PumpManagerState.swift in Sources */,
 				C14FFC631D3D7CE20049CF85 /* NightscoutService.swift in Sources */,
+				01B6B18E25CE1A92000BF85E /* Package.swift in Sources */,
 				C1B383361CD1BA8100CE7782 /* DeviceDataManager.swift in Sources */,
 				C1271B071A9A34E900B7C949 /* Log.m in Sources */,
 				434FF1DC1CF268BD000DB779 /* IdentifiableClass.swift in Sources */,
@@ -3998,7 +4002,6 @@
 				C15500282308FA2F00345FCC /* BeepConfigCommand.swift in Sources */,
 				C1BB129521CB564D009A29B5 /* CRC16.swift in Sources */,
 				C1BB129D21CB5654009A29B5 /* CancelDeliveryCommand.swift in Sources */,
-				C1BB12AC21CB5654009A29B5 /* PodInfoTester.swift in Sources */,
 				C1BB12AE21CB5654009A29B5 /* SetupPodCommand.swift in Sources */,
 				C1BB12BC21CB577E009A29B5 /* LogEventErrorCode.swift in Sources */,
 				C1BB12AB21CB5654009A29B5 /* PodInfoResponse.swift in Sources */,
