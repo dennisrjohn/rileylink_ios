@@ -46,7 +46,7 @@ let package = Package(
         .package(
                     url: "https://github.com/dennisrjohn/LoopKit",
                     .branch("nudge")
-                )
+                ),
         .package(
                     url: "https://github.com/maxkonovalov/MKRingProgressView",
                     from: "2.2.3"
